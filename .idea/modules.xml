@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/auth-server/auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-auth/basic-auth.iml" filepath="$PROJECT_DIR$/basic-auth/basic-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/practical-spring-security.iml" filepath="$PROJECT_DIR$/.idea/practical-spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-server/resource-server.iml" filepath="$PROJECT_DIR$/resource-server/resource-server.iml" />
+    </modules>
+  </component>
+</project>
