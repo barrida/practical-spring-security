@@ -51,6 +51,7 @@ public class OAuth2AuthorizationServerSecurityConfiguration {
                 .scope("READ")
                 .scope("WRITE")
                 .build();
+        // todo: add new client to test AudienceValidator
         return new InMemoryRegisteredClientRepository(myClient);
     }
 
