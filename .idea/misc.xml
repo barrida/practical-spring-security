@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/section4-jwt/pom.xml" />
         <option value="$PROJECT_DIR$/section4-jwt-resource-server/pom.xml" />
         <option value="$PROJECT_DIR$/section4-jwt-auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/section4-jwt-resource-server-okta/pom.xml" />
+        <option value="$PROJECT_DIR$/sc4-jwt-okta/pom.xml" />
+        <option value="$PROJECT_DIR$/sc4-jwt-okta-resource-server/pom.xml" />
       </list>
     </option>
   </component>

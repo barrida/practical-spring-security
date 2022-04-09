@@ -7,15 +7,17 @@
     <file url="file://$PROJECT_DIR$/basic-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resource-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resource-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section2-basic-auth/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section2-basic-auth/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section3-auth-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section3-auth-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section3-resource-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section3-resource-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section4-jwt-auth-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section4-jwt-auth-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section4-jwt-resource-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/section4-jwt-resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc2-basic-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc2-basic-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc3-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc3-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc3-resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc3-resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc4-jwt-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc4-jwt-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc4-jwt-okta-resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc4-jwt-okta-resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc4-jwt-resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc4-jwt-resource-server/src/main/resources" charset="UTF-8" />
   </component>
 </project>

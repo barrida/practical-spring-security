@@ -1,0 +1,13 @@
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\JwtResourceServerApplication.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\controller\ProductController.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\repository\UserRepository.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\service\ProductService.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\entity\Product.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\validation\AudienceValidator.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\entity\Currency.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\entity\Authority.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\entity\ProductResponse.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\config\OAuth2ResourceServerSecurityConfiguration.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\entity\User.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\config\WebConfig.java
+D:\Spring Security Course\practical-spring-security\section4-jwt-resource-server\src\main\java\auth\jwt\resource\server\repository\ProductRepository.java

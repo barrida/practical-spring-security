@@ -7,30 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="resource-server" />
-        <module name="jwt-auth-server" />
+        <module name="sc4-jwt-okta-resource-server" />
         <module name="section4-jwt-resource-server" />
-        <module name="section4-jwt" />
-        <module name="basic-auth" />
-        <module name="auth-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="auth-server" target="11" />
-      <module name="basic-auth" target="11" />
-      <module name="jwt-auth-server" target="11" />
-      <module name="resource-server" target="11" />
-      <module name="section4-jwt" target="17" />
+      <module name="sc2-basic-auth" target="11" />
+      <module name="sc3-auth-server" target="11" />
+      <module name="sc3-resource-server" target="11" />
+      <module name="sc4-jwt-auth-server" target="11" />
+      <module name="sc4-jwt-okta-resource-server" target="17" />
+      <module name="sc4-jwt-resource-server" target="17" />
       <module name="section4-jwt-resource-server" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="auth-server" options="-parameters" />
-      <module name="basic-auth" options="-parameters" />
-      <module name="jwt-auth-server" options="-parameters" />
-      <module name="resource-server" options="-parameters" />
-      <module name="section4-jwt" options="-parameters" />
+      <module name="sc2-basic-auth" options="-parameters" />
+      <module name="sc3-auth-server" options="-parameters" />
+      <module name="sc3-resource-server" options="-parameters" />
+      <module name="sc4-jwt-auth-server" options="-parameters" />
+      <module name="sc4-jwt-okta-resource-server" options="-parameters" />
+      <module name="sc4-jwt-resource-server" options="-parameters" />
       <module name="section4-jwt-resource-server" options="-parameters" />
     </option>
   </component>

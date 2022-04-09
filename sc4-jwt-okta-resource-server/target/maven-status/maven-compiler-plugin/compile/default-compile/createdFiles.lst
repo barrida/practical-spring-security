@@ -1,0 +1,15 @@
+auth\jwt\resource\server\repository\ProductRepository.class
+auth\jwt\resource\server\repository\UserRepository.class
+auth\jwt\resource\server\config\WebConfig.class
+auth\jwt\resource\server\controller\ProductController.class
+auth\jwt\resource\server\entity\Currency.class
+auth\jwt\resource\server\entity\Authority.class
+auth\jwt\resource\server\config\OAuth2ResourceServerSecurityConfiguration.class
+auth\jwt\resource\server\config\InformativeAuthenticationEntryPoint.class
+auth\jwt\resource\server\service\ProductService.class
+auth\jwt\resource\server\entity\Product.class
+auth\jwt\resource\server\entity\ProductResponse$ProductResponseBuilder.class
+auth\jwt\resource\server\validation\AudienceValidator.class
+auth\jwt\resource\server\entity\ProductResponse.class
+auth\jwt\resource\server\JwtResourceServerApplication.class
+auth\jwt\resource\server\entity\User.class
