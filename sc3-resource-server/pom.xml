@@ -11,7 +11,7 @@
 	<groupId>com.practical.spring.security</groupId>
 	<artifactId>sc3-resource-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>resource-server</name>
+	<name>sc3-resource-server</name>
 	<description>Resource Server
 	</description>
 	<properties>
@@ -42,7 +42,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
-			<version>2.6.4</version>
+			<version>2.6.5</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.nimbusds/oauth2-oidc-sdk -->
 		<dependency>

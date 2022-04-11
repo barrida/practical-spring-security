@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/practical-spring-security.iml" filepath="$PROJECT_DIR$/.idea/practical-spring-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/section4-jwt-resource-server-okta/sc4-jwt-okta-resource-server.iml" filepath="$PROJECT_DIR$/section4-jwt-resource-server-okta/sc4-jwt-okta-resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc2-basic-auth/sc2-basic-auth.iml" filepath="$PROJECT_DIR$/sc2-basic-auth/sc2-basic-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc3-auth-server/sc3-auth-server.iml" filepath="$PROJECT_DIR$/sc3-auth-server/sc3-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc3-resource-server/sc3-resource-server.iml" filepath="$PROJECT_DIR$/sc3-resource-server/sc3-resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc4-jwt-auth-server/sc4-jwt-auth-server.iml" filepath="$PROJECT_DIR$/sc4-jwt-auth-server/sc4-jwt-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc4-jwt-okta-resource-server/sc4-jwt-okta-resource-server.iml" filepath="$PROJECT_DIR$/sc4-jwt-okta-resource-server/sc4-jwt-okta-resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc4-jwt-resource-server/sc4-jwt-resource-server.iml" filepath="$PROJECT_DIR$/sc4-jwt-resource-server/sc4-jwt-resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/section4-jwt/section4-jwt-resource-server.iml" filepath="$PROJECT_DIR$/section4-jwt/section4-jwt-resource-server.iml" />
     </modules>
   </component>

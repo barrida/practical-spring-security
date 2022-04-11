@@ -7,8 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sc3-resource-server" />
+        <module name="sc4-jwt-resource-server" />
         <module name="sc4-jwt-okta-resource-server" />
+        <module name="sc3-auth-server" />
+        <module name="sc2-basic-auth" />
         <module name="section4-jwt-resource-server" />
+        <module name="sc4-jwt-auth-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

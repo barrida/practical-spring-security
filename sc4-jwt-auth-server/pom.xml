@@ -11,7 +11,7 @@
 	<groupId>com.practical.spring.security</groupId>
 	<artifactId>sc4-jwt-auth-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jwt-auth-server</name>
+	<name>sc4-jwt-auth-server</name>
 	<description>Authorization Server</description>
 	<properties>
 		<java.version>11</java.version>

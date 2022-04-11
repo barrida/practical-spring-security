@@ -11,7 +11,7 @@
 	<groupId>com.practical.spring.security</groupId>
 	<artifactId>sc3-auth-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auth-server</name>
+	<name>sc3-auth-server</name>
 	<description>Auhtorization Server</description>
 	<properties>
 		<java.version>11</java.version>
