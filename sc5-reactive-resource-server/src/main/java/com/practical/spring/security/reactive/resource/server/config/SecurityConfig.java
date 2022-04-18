@@ -1,4 +1,4 @@
-package com.practical.spring.security.reactive.resource.server;
+package com.practical.spring.security.reactive.resource.server.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

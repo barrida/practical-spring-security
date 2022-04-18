@@ -2,9 +2,10 @@ server:
   port: 8090
 okta:
   oauth2:
-    issuer: https://dev-70519533.okta.com/oauth2/aus4mp1j9dkITiPAj5d7
+    issuer: <your_okta_authorization_server_url> # e.g.: https://<your_okta_domain>/oauth2/<auth_server_id>#
 
-#spring:
-#  data:
-#    mongodb:
-#      uri: mongodb://localhost:27017/product
+# if you use embedded MongoDB, this configuration is not necessary.
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/product
