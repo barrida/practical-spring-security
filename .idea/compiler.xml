@@ -9,10 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sc3-resource-server" />
         <module name="sc4-jwt-resource-server" />
+        <module name="sc5-reactive-web-client" />
         <module name="sc4-jwt-okta-resource-server" />
         <module name="sc3-auth-server" />
         <module name="sc2-basic-auth" />
-        <module name="section4-jwt-resource-server" />
+        <module name="sc5-reactive-resource-server" />
         <module name="sc4-jwt-auth-server" />
       </profile>
     </annotationProcessing>
@@ -23,7 +24,8 @@
       <module name="sc4-jwt-auth-server" target="11" />
       <module name="sc4-jwt-okta-resource-server" target="17" />
       <module name="sc4-jwt-resource-server" target="17" />
-      <module name="section4-jwt-resource-server" target="17" />
+      <module name="sc5-reactive-resource-server" target="11" />
+      <module name="sc5-reactive-web-client" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,7 +36,8 @@
       <module name="sc4-jwt-auth-server" options="-parameters" />
       <module name="sc4-jwt-okta-resource-server" options="-parameters" />
       <module name="sc4-jwt-resource-server" options="-parameters" />
-      <module name="section4-jwt-resource-server" options="-parameters" />
+      <module name="sc5-reactive-resource-server" options="-parameters" />
+      <module name="sc5-reactive-web-client" options="-parameters" />
     </option>
   </component>
 </project>

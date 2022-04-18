@@ -9,7 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/sc4-jwt-auth-server/sc4-jwt-auth-server.iml" filepath="$PROJECT_DIR$/sc4-jwt-auth-server/sc4-jwt-auth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc4-jwt-okta-resource-server/sc4-jwt-okta-resource-server.iml" filepath="$PROJECT_DIR$/sc4-jwt-okta-resource-server/sc4-jwt-okta-resource-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc4-jwt-resource-server/sc4-jwt-resource-server.iml" filepath="$PROJECT_DIR$/sc4-jwt-resource-server/sc4-jwt-resource-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/section4-jwt/section4-jwt-resource-server.iml" filepath="$PROJECT_DIR$/section4-jwt/section4-jwt-resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc5-reactive-resource-server/sc5-reactive-resource-server.iml" filepath="$PROJECT_DIR$/sc5-reactive-resource-server/sc5-reactive-resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc5-reactive-web-client/sc5-reactive-web-client.iml" filepath="$PROJECT_DIR$/sc5-reactive-web-client/sc5-reactive-web-client.iml" />
     </modules>
   </component>
 </project>

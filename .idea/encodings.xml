@@ -19,5 +19,8 @@
     <file url="file://$PROJECT_DIR$/sc4-jwt-okta-resource-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc4-jwt-resource-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sc4-jwt-resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc5-reactive-resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc5-reactive-resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc5-reactive-web-client/src/main/java" charset="UTF-8" />
   </component>
 </project>

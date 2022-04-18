@@ -13,6 +13,6 @@ spring:
 
 okta:
   oauth2:
-    issuer: https://dev-70519533.okta.com/oauth2/default
-    client-id: 0oa4kna87nlw366tT5d7
-    client-secret: CnzWDHNSrWj93s-_n4TCBAFvkpmefWpo62SEeCBf
+    issuer: https://dev-70519533.okta.com/oauth2/aus4mp1j9dkITiPAj5d7
+    client-id: 0oa4mp28f6dC9WHx75d7
+    client-secret: JnHL-C6z-DJ7F_AUB0R636dFa01643bAUegYgw4R
