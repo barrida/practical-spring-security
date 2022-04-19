@@ -1,4 +1,4 @@
-package com.practical.spring.security.reactive.web.client.config.model;
+package com.practical.spring.security.reactive.web.client.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

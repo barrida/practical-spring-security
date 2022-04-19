@@ -1,4 +1,4 @@
-package com.practical.spring.security.reactive.web.client.config.model;
+package com.practical.spring.security.reactive.web.client.model;
 
 /**
  * @author Suleyman Yildirim

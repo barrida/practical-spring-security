@@ -1,6 +1,6 @@
 package com.practical.spring.security.reactive.web.client.controller;
 
-import com.practical.spring.security.reactive.web.client.config.model.Product;
+import com.practical.spring.security.reactive.web.client.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.oauth2.client.OAuth2AuthorizedClient;
