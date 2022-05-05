@@ -9,3 +9,6 @@ However, I modified the code for the purpose of the course. Please see the code 
 1. Clone this repository and save it to your computer.
 2. Open IntelliJ and import it as a "Maven" project.
 3. Right click to BasicAuthApplication.java class and "Run" 
+4. Browse http://localhost:8080/ and sign-in with the credentials below
+   1. username: suleyman
+   2. password: 1234

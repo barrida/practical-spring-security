@@ -7,8 +7,12 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.formLogin;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.httpBasic;
+import static org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.authenticated;
+import static org.springframework.security.test.web.servlet.response.SecurityMockMvcResultMatchers.unauthenticated;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.redirectedUrl;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
@@ -38,4 +42,21 @@ public class AuthenticationTests {
                 .andExpect(status().isUnauthorized());
     }
 
+    @Test
+    @DisplayName("Logging in authenticating with valid user and valid credentials")
+    public void formLoginWithValidCredentials() throws Exception {
+        mvc.perform(formLogin().user("suleyman").password("1234"))
+                .andExpect(redirectedUrl("/main"))
+                .andExpect(status().isFound())
+                .andExpect(authenticated());
+    }
+
+    @Test
+    @DisplayName("Logging in authenticating with valid user and invalid credentials")
+    public void formLoginWithInvalidCredentials() throws Exception {
+        mvc.perform(formLogin().user("suleyman").password("qe135"))
+                .andExpect(redirectedUrl("/login?error"))
+                .andExpect(status().isFound())
+                .andExpect(unauthenticated());
+    }
 }

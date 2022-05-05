@@ -13,7 +13,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * @author Suleyman Yildirim
  */
 @Configuration
-@EnableGlobalMethodSecurity(prePostEnabled=true)
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class ProjectConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
@@ -21,14 +21,17 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(WebSecurity web) throws Exception {
-       web.ignoring().antMatchers("/h2-console/**");
+        web.ignoring().antMatchers("/h2-console/**");
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.httpBasic();
-        http.authorizeRequests()
-                .anyRequest().authenticated();
+        http.formLogin()
+                .defaultSuccessUrl("/main", true)
+                .and()
+                .httpBasic();
+        http.csrf().disable();
+        http.authorizeRequests().anyRequest().authenticated();
     }
 
     @Override
