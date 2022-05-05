@@ -7,6 +7,7 @@ INSERT INTO authority (id, name, user) VALUES ('2', 'WRITE', '1');
 INSERT INTO product (id, name, price, currency, owner)
 VALUES ('1', 'Chicken', '5', 'GBP' ,'<your_okta_user_email>'),
  ('2', 'Beef', '15', 'GBP','canan'),
- ('3', 'Apple', '3', 'GBP','fatma'),
- ('4', 'Rice', '4', 'GBP','<your_okta_user_email>'),
- ('5', 'Fish', '8', 'GBP','<your_okta_user_email>');
+ ('3', 'Beef', '12', 'GBP','canan'),
+ ('4', 'Apple', '3', 'GBP','fatma'),
+ ('5', 'Rice', '4', 'GBP','<your_okta_user_email>'),
+ ('6', 'Fish', '8', 'GBP','<your_okta_user_email>');

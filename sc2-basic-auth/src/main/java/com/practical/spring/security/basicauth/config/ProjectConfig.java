@@ -26,9 +26,9 @@ public class ProjectConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.formLogin().defaultSuccessUrl("/main", true);
-        http.csrf().disable();
-        http.authorizeRequests().anyRequest().authenticated();
+        http.httpBasic();
+        http.authorizeRequests()
+                .anyRequest().authenticated();
     }
 
     @Override

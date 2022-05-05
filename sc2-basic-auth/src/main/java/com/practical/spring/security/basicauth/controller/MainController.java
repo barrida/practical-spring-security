@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import java.net.URI;
@@ -22,15 +23,11 @@ import java.net.URI;
 public class MainController {
 
     @Autowired
-    private RestTemplate restTemplate;
-
-    @Autowired
     private ProductService productService;
 
 
     @GetMapping("/main")
     @PreAuthorize("hasAuthority('READ')")
-    //@PreAuthorize("hasAuthority('READ')")
     public String main(Authentication authentication, Model model) {
         model.addAttribute("username", authentication.getName());
         model.addAttribute("products", productService.findAll());
