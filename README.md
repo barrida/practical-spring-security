@@ -12,5 +12,9 @@
 - Section 5 - Spring Security with Reactive Applications
   - sc5-reactive-resource-server
   - sc5-reactive-web-client
-- Section 6 - Testing in Spring Security
-  - see test folders in sc2-basic-auth, sc3-resource-server, sc4-jwt-okta-resource-server, and sc5-reactive-resource-server
+- Section 6 - Testing in Spring Security (see src/test folders) 
+    - sc2-basic-auth
+    - sc3-resource-server
+    - sc4-jwt-okta-resource-server
+    - sc5-reactive-resource-server
+    - sc5-reactive-web-client
