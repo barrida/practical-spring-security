@@ -1,5 +1,8 @@
-# Practical Spring Security Course Projects
+# Course Link
 
+https://codered.eccouncil.org/course/practical-spring-security
+
+# Practical Spring Security Course Projects
 - Section 2 - Basic Authentication
   - sc2-basic-auth
 - Section 3 - Securing REST Services
